@@ -103,7 +103,7 @@ const JobApplicationForm = ({ jobId, jobTitle }) => {
       formPayload.append("mimeType", formData.resume.type);
 
       try {
-        const response = await fetch("https://script.google.com/macros/s/AKfycbxyuN8qoNxwnHvA6kqDlIixKvtXf9pUCpG6zLc7lbhrbxHe8PGVpw0v8H9pRLeN8Xbj/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbzA0tHSO_f4VtxD9DBtZobg5DFCEOZsdb7QQOlwR3aLWhc41ZEk_X8Hyr5QOttzB2XyQg/exec", {
           method: "POST",
           body: formPayload,
         });
